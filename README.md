@@ -1,1 +1,14 @@
-parcel-namer-preserve-structure/README.md
+# `@hi-ashleyj/parcel-namer-preserve-structure`
+
+Tries to retain the existing folder structure of your source files.
+
+## Usage:
+
+Add a `.parcelrc` into your root directory (next to `package.json`):
+
+```json
+{
+	"extends": "@parcel/config-default",
+	"namers": ["@hi-ashleyj/parcel-namer-preserve-structure", "..."]
+}
+```
