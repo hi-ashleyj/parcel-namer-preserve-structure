@@ -1,4 +1,4 @@
-# `@mischnic/parcel-namer-preserve-structure`
+# `@hi-ashleyj/parcel-namer-preserve-structure`
 
 Tries to retain the existing folder structure of your source files.
 
@@ -9,6 +9,6 @@ Add a `.parcelrc` into your root directory (next to `package.json`):
 ```json
 {
 	"extends": "@parcel/config-default",
-	"namers": ["@mischnic/parcel-namer-preserve-structure", "..."]
+	"namers": ["@hi-ashleyj/parcel-namer-preserve-structure", "..."]
 }
 ```
