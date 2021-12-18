@@ -1,5 +1,5 @@
 {
-	"name": "@mischnic/parcel-namer-preserve-structure",
+	"name": "@hi-ashleyj/parcel-namer-preserve-structure",
 	"version": "0.2.0",
 	"license": "MIT",
 	"main": "index.js",
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mischnic/parcel-namer-preserve-structure.git"
+		"url": "https://github.com/hi-ashleyj/parcel-namer-preserve-structure.git"
 	},
 	"dependencies": {
 		"@parcel/diagnostic": "^2.0.0",
