@@ -90,9 +90,6 @@ module.exports = new Namer({
       bundleGroup.entryAssetId,
       bundleGraph.getEntryRoot(bundle.target)
     );
-    if (!bundle.needsStableName) {
-      name += "." + bundle.hashReference;
-    }
 
     return name + "." + bundle.type;
   },
